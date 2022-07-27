@@ -1,5 +1,5 @@
 package com.company;
-
+//idea在本质上只是对电脑中现有文件的一种解释方式
 import com.sun.jdi.PathSearchingVirtualMachine;
 
 import java.sql.*;

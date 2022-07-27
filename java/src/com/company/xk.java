@@ -3,7 +3,7 @@ package com.company;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class xk implements Comparable<xk>{
+public class xk implements Comparable<xk> {
     public static void main(String[] args) {
 //       try{
 //           throw new RuntimeException("异常发生");
@@ -17,7 +17,7 @@ public class xk implements Comparable<xk>{
 //       }
 //        System.out.println("执行了catch和finally之后若没有return和exit仍执行剩下语句");
 //    }
-        Queue<String> queue=new LinkedList<>();
+        Queue<String> queue = new LinkedList<>();
         System.out.println(queue.size());
         queue.add(null);
         System.out.println(queue.size());
@@ -25,6 +25,6 @@ public class xk implements Comparable<xk>{
 
     @Override
     public int compareTo(xk o) {
-        return 0;
+        return (int) (Math.random() - Math.random());
     }
 }
