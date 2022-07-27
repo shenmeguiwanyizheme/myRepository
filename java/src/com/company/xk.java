@@ -1,4 +1,5 @@
 package com.company;
+//与其问人，不如自己调试
 
 import java.util.LinkedList;
 import java.util.Queue;
